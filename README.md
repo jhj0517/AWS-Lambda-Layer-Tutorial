@@ -59,15 +59,13 @@ my-layer.zip
 
 # Installing Libraries for the AWS Lambda Environment
 
-According to [Documentation here](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-python-package-compatible/) ,
-
-AWS Lambda OS is `manylinux2014_aarch64` . 
+According to [Documentation here](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-python-package-compatible/) , AWS Lambda OS is `manylinux2014_aarch64` . 
 
 When creating a Layer file, You should ensure that you install compatible library versions for the AWS Lambda environment. 
 
-(Some libraries may not run on AWS Lambda when you installed them on Windows.)
+(Some libraries may not run on AWS Lambda when you installed them on Windows!)
 
-For example, In `Python`, After creating the "my-layer" folder, execute the following command to install the library:
+To do that, In `Python`, After creating the "my-layer" folder, execute the following command to install the library:
 
 ```
 pip install --platform manylinux2014_aarch64 --target=./python/lib/python3.9/site-packages --implementation cp --python 3.9 --only-binary=:all: --upgrade pandas
