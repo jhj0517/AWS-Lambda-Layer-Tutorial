@@ -57,7 +57,7 @@ my-layer.zip
     └── bootstrap
 ```
 
-# Installation for AWS Lambda OS
+# Installing Libraries for the AWS Lambda Environment
 
 According to [Documentation here](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-python-package-compatible/) ,
 
