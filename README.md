@@ -67,8 +67,8 @@ When creating a Layer file, You should ensure that you install compatible librar
 
 To do that, In `Python`, After creating the "my-layer" folder, execute the following command to install the library:
 
-```
-pip install --platform manylinux2014_aarch64 --target=./python/lib/python3.9/site-packages --implementation cp --python 3.9 --only-binary=:all: --upgrade pandas
+```command
+pip install --platform manylinux2014_aarch64 --target=./python/ --implementation cp --python 3.9 --only-binary=:all: --upgrade pandas
 ```
 
 The "Example Layer.zip" in this repo contains `pandas` and `numpy`, which were installed using the command above as well ^-^! 
