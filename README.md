@@ -4,7 +4,7 @@ This is Tutorial repo about how to create Layer to an AWS Lambda function!
 # Layer Path
 You can use various libraries in your AWS Lambda function by uploading a .zip file, Which is called "Layer".
 
-According to [Layer Path documentation](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) ,
+According to [Layer Path documentation](https://docs.aws.amazon.com/lambda/latest/dg/packaging-layers.html) ,
 
 "Layer" for AWS Lambda should follow a specific folder structure:
 
